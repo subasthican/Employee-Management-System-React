@@ -1,0 +1,97 @@
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(17, 231, 17);
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    
+}
+
+.nav li{
+  display: flex;
+  padding: 10px;
+}
+
+.nav a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+.table{
+  
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  
+}
+.table-wrapper{
+  width: 90%;
+  margin: 20px auto;
+ 
+
+}
+.button-wrapper{
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+  gap: 20px;
+} 
+
+.table th {
+  border: 1px solid black;
+  padding: 10px;
+  background-color:  rgb(20, 225, 106);
+  
+}
+.table td {
+  border: 1px solid black;
+  padding: 10px;
+  
+
+}
+
+.addEmpButton{
+  border-radius: 8px;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+ 
+  
+  
+}
+h1{
+  text-align: center;
+  
+}
+.footer{
+  background-color: rgb(17, 231, 17);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  padding: 10px 0;
+  justify-content: center;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+  
+}
+
+
+.footer-link {
+  display: flex;
+  gap: 20px;
+  
+}
+.footer-link a{
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+}
