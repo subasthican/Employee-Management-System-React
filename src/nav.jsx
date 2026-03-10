@@ -2,24 +2,20 @@ import React from 'react'
 
 function Nav() {
   return (
-    <div className="nav">
+    <div class="flex place-content-between content-center  p-4 bg-gray-100 rounded-full shadow-lg m-8 ">
         <div>
-            <ul >
-                 <li><a href="/">EMS Company</a></li>
+            <ul class="flex list-none gap-5">
+                 <li><a class="text-xl italic text-shadow-lg/30 text-blue-500" href="/">EMS Company</a></li>
             </ul>
         </div>
         <div>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/">About</a></li>
-                <li><a href="/">Contact</a></li>
-                <li><a href="/">Login</a></li>
-                <li><a href="/">Register</a></li>
+            <ul class="flex list-none gap-5" >
+                <li><a class="text-xl hover:text-blue-500" href="/">Home</a></li>
+                <li><a class="text-xl hover:text-blue-500" href="/">About</a></li>
+                <li><a class="text-xl hover:text-blue-500" href="/">Contact</a></li>
+                <li><a class="text-xl hover:text-red-500" href="/">LogOut</a></li>
             </ul>
         </div>
-            
-            
-        
     </div>
   )
 }
